@@ -1,13 +1,19 @@
-import { Text } from 'react-native'
-import React from 'react'
+import { View, Text, Pressable } from 'react-native';
+import Styles from "../stylist/GeneralStyles"
 
-const Love = () => {
-  return (
+const Love =()=> {
+    return (
+        <View style={Styles.container}>
+          <Text style={Styles.text}>Me encanta la Papaya</Text>
+          <Pressable onLongPress={()=> alert("Why did you stop?! aaajj")}>
+            <Text style={{color :"teal", fontSize: 8,}}>Press here daddy
+            </Text>
+          </Pressable>
+        </View>
+      );
+    };
+    
+    
 
-      <Text>I Love to Code</Text>
-   
-  )
-}
 
 export default Love;
-

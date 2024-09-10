@@ -1,36 +1,21 @@
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, Pressable } from 'react-native';
+import Styles  from "../stylist/GeneralStyles"
 
-const GritoDeGuerra =()=> {
+
+
+const Name =()=> {
     return (
-        <View className="container" style={styles.container}>
-          <Text style={styles.text}>Ay! PaPAYa de CelAYaaa!</Text>
-        
+        <View style={Styles.container}>
+          <Text style={Styles.text}>Ich HeiBe Omar.</Text>
+        <Pressable onPress={()=> console.log("Just Pressed papi")}>
+          <Text style={{color :"teal", fontSize: 8,}}>Press here daddy
+          </Text>
+        </Pressable>
         </View>
       );
     };
     
-    const styles = StyleSheet.create({
-      container: {
-        marginLeft: 34,
-        marginRight: 34,
-        marginBottom: 50,
-        marginTop: 50, 
-        backgroundColor: 'white', // Color de fondo blanco
-        borderRadius: 10, // Bordes redondeados
-        padding: 20, // Espaciado interno
-        shadowColor: '#000', // Color de la sombra
-        shadowOffset: { width: 0, height: 2 }, // Desplazamiento de la sombra
-        shadowOpacity: 0.25, // Opacidad de la sombra
-        shadowRadius: 3.5, // Difuminado de la sombra
-        elevation: 5, // Elevación (solo para Android)
-        alignItems: 'center', // Alineación horizontal
-        justifyContent: 'center', // Alineación vertical
-      },
-      text: {
-        fontSize: 18, // Tamaño del texto
-        color: '#333', // Color del texto
-      },
-    });
+    
 
 
-export default GritoDeGuerra;
+export default Name;
