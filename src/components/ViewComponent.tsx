@@ -1,4 +1,4 @@
-import { View, Text, Button } from 'react-native'
+import { View } from 'react-native'
 import React from 'react'
 import ButtonComponent from './ButtonComponent'
 
@@ -8,11 +8,12 @@ import Age from "../components/Age";
 import Handle from "../components/Handle";
 import Love from "../components/Love";
 import ButtonComponent2 from './ButtonComponent2';
+import Cards from './CardComponent';
 
 const ViewComponent = () => {
   return (
     <View>
-        
+       
         <Name/>
         <GritoDeGuerra/>
         <Age/>
