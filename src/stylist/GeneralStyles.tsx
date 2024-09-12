@@ -18,6 +18,11 @@ const Styles = StyleSheet.create({
         alignItems: 'center', // Alineación horizontal
         justifyContent: 'center', // Alineación vertical
       },
+      titleName:{
+        fontSize: 28,
+        color: 'red',
+
+      },
       text: {
         fontSize: 18, // Tamaño del texto
         color: '#333', // Color del texto
@@ -53,6 +58,48 @@ const Styles = StyleSheet.create({
         elevation: 3,
         backgroundColor: 'black',
       },
+
+      cardContainer: {
+        flex: 1,
+      },
+      fonts: {
+        marginBottom: 8,
+      },
+      user: {
+        flexDirection: 'row',
+        marginBottom: 6,
+      },
+      image: {
+        width: 30,
+        height: 30,
+        marginRight: 10,
+      },
+      name: {
+        fontSize: 16,
+        marginTop: 5,
+      },
+      circularImage:{
+        width: 100,
+        height: 100,
+        borderRadius:50,
+      },
+
+      buttonHitMe: {
+        marginTop: 10,
+        alignItems: 'center',
+        justifyContent: 'center',
+        height: 40,
+        width: 180,
+        paddingVertical: 1,
+        paddingHorizontal: 1,
+        borderRadius: 4,
+        elevation: 3,
+        backgroundColor: 'grey',
+      },
+      textHitMe: {
+        color: 'white',
+      },
+
     });
 
 
