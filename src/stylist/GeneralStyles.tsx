@@ -79,9 +79,9 @@ const Styles = StyleSheet.create({
         marginTop: 5,
       },
       circularImage:{
-        width: 100,
-        height: 100,
-        borderRadius:50,
+        width: 200,
+        height: 200,
+        borderRadius:80,
       },
 
       buttonHitMe: {
@@ -99,6 +99,104 @@ const Styles = StyleSheet.create({
       textHitMe: {
         color: 'white',
       },
+      textContainer: {
+        marginLeft: 54,
+        marginRight: 54,
+        marginBottom: 8,
+        marginTop: 8, 
+        backgroundColor: 'white', // Color de fondo blanco
+        borderRadius: 10, // Bordes redondeados
+        padding: 20, // Espaciado interno
+        elevation: 5, // Elevación (solo para Android)
+        alignItems: 'center', // Alineación horizontal
+        justifyContent: 'center', // Alineación vertical
+        textAlign: 'justify',
+      },
+      inputContainer:{
+        padding: 35,
+      },
+      textInput: {
+        marginTop: 10,
+        marginBottom: 10,
+      },
+      buttonContainer:{
+        marginTop: 10,
+        alignItems: 'center',
+        justifyContent: 'center',
+        height: 40,
+        width: 180,
+        paddingVertical: 1,
+        paddingHorizontal: 1,
+        borderRadius: 4,
+        elevation: 3,
+        backgroundColor: 'grey',
+      },
+      buttonLogin: {
+        marginTop: 10,
+        alignItems: 'center',
+        justifyContent: 'center',
+        height: 40,
+        width: 180,
+        paddingVertical: 1,
+        paddingHorizontal: 1,
+        borderRadius: 4,
+        elevation: 3,
+        backgroundColor: 'blue',
+      },
+      buttonSignup: {
+        marginTop: 10,
+        alignItems: 'center',
+        justifyContent: 'center',
+        height: 40,
+        width: 180,
+        paddingVertical: 1,
+        paddingHorizontal: 1,
+        borderRadius: 4,
+        elevation: 3,
+        backgroundColor: 'black',
+      },
+      centeredView: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginTop: 22,
+      },
+      modalView: {
+        margin: 20,
+        backgroundColor: 'white',
+        borderRadius: 20,
+        padding: 35,
+        alignItems: 'center',
+        shadowColor: '#000',
+        shadowOffset: {
+          width: 0,
+          height: 2,
+        },
+        shadowOpacity: 0.25,
+        shadowRadius: 4,
+        elevation: 5,
+      },
+      buttonModal: {
+        borderRadius: 20,
+        padding: 10,
+        elevation: 2,
+      },
+      buttonOpen: {
+        backgroundColor: '#F194FF',
+      },
+      buttonClose: {
+        backgroundColor: '#2196F3',
+      },
+      textStyle: {
+        color: 'white',
+        fontWeight: 'bold',
+        textAlign: 'center',
+      },
+      modalText: {
+        marginBottom: 15,
+        textAlign: 'center',
+      },
+
 
     });
 

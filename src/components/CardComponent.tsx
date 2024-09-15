@@ -8,6 +8,10 @@ const Cards = () => {
         <Image source={require('../img/banda1.jpg')} style={Styles.circularImage}/>
         <Text style={Styles.titleName}>Omar Gutierrez</Text>
         <Text>Coding is my pashon</Text>
+        <Text style={Styles.textContainer}>
+          He aqui una pequena muestra de lo que es mi realidad verdadera dentro de una simulacion de la matrix.
+        </Text>
+
         <Pressable style={Styles.buttonHitMe} onPress={() => alert("Stay in touch!")} >
             <Text style={Styles.textHitMe}> Hit me Up!</Text>
         </Pressable>
