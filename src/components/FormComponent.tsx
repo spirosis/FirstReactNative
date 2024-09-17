@@ -7,7 +7,7 @@ const Form = () => {
     return (
         <View style={Styles.container}>
             <Modal
-                animationType="slide"
+                animationType="fade"
                 transparent={true}
                 visible={modalVisible}
                 onRequestClose={() => {
@@ -16,11 +16,11 @@ const Form = () => {
                 }}>
                 <View style={Styles.centeredView}>
                     <View style={Styles.modalView}>
-                        <Text style={Styles.modalText}>Hello World!</Text>
+                        <Text style={Styles.modalText}>Welcome back Mothafocka!</Text>
                         <Pressable
                             style={[Styles.buttonModal, Styles.buttonClose]}
                             onPress={() => setModalVisible(!modalVisible)}>
-                            <Text style={Styles.textStyle}>Hide Modal</Text>
+                            <Text style={Styles.textStyle}>Close</Text>
                         </Pressable>
                     </View>
                 </View>
