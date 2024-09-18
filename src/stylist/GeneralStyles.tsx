@@ -198,6 +198,37 @@ const Styles = StyleSheet.create({
         textAlign: 'center',
       },
 
+      productImage: {
+        width: '100%',
+        height: 150,
+        resizeMode: 'cover',
+        borderRadius: 5,
+      },
+
+      productCard: {
+        padding: 10,
+        margin: 10,
+        borderRadius: 10,
+        backgroundColor: '#fff',
+        shadowColor: '#000',
+        shadowOpacity: 0.1,
+        shadowRadius: 10,
+        elevation: 5,
+      },
+
+      productName: {
+        fontSize: 18,
+        fontWeight: 'bold',
+        marginVertical: 10,
+      },
+      productPrice: {
+        fontSize: 16,
+        color: '#888',
+      },
+      productDescription: {
+        fontSize: 14,
+        color: '#666',
+      },
 
     });
 
