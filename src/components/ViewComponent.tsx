@@ -6,27 +6,33 @@ import Cards from '../components/CardComponent'
 import Form from './FormComponent';
 import ProductsComponent from './ProductsComponent';
 import { products } from '../public/Products';
+import ConversionComponent from './ConversionComponent';
+import Fetching from './Fetching';
+import TogglerComponent from './TogglerComponent';
+import WeatherApp from './GetWeatherComponent';
 
 const ViewComponent = () => {
   return (
     <ScrollView>
 
     <View>
-       <Cards />
-       <Form />
-       {products.map(item =>(
+       {/* <Cards /> */}
+       <ConversionComponent/>
+       <Fetching />
+       <TogglerComponent/>
+       <WeatherApp />
+       {/* <Form /> */}
+       {/* {products.map(item =>(
 
          <ProductsComponent 
           productImage={item.productImage}
           productName={item.productName}
           productPrice={item.productPrice}
           isFeatured={item.isFeatured}
-          productDescription={item.productDescription}/>
-      
+          productDescription={item.productDescription}
+          />
        ))
-
-
-       }
+       } */}
     </View>
 
     </ScrollView>

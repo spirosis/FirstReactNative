@@ -5,8 +5,8 @@ import Fetching from "../components/Fetching";
 
 function Index() {
     return <View>
-       {/* <ViewComponent /> */}
-        <Fetching/>
+       <ViewComponent />
+        {/* <Fetching/> */}
         {/*
             1.OnPress: Function that is called when the component is pressed. required.
             2.onPressIn: function that is called when the press gesture <starts.
