@@ -229,6 +229,21 @@ const Styles = StyleSheet.create({
         fontSize: 14,
         color: '#666',
       },
+      colorTitle: {
+        fontSize: 16,
+        marginBottom: 20,
+      },
+      colorContainer:{
+        flexDirection:"row",
+        flexWrap: "wrap",
+        justifyContent: "center",
+      },
+      colorBox:{
+        width: 60,
+        height: 60,
+        margin: 5,
+        borderRadius: 30,
+      },
 
     });
 

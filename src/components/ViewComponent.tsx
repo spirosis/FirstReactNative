@@ -10,6 +10,7 @@ import ConversionComponent from './ConversionComponent';
 import Fetching from './Fetching';
 import TogglerComponent from './TogglerComponent';
 import WeatherApp from './GetWeatherComponent';
+import ColorPicker from './ColorPicker';
 
 const ViewComponent = () => {
   return (
@@ -18,9 +19,10 @@ const ViewComponent = () => {
     <View>
        {/* <Cards /> */}
        <ConversionComponent/>
-       <Fetching />
+       {/* <Fetching /> */}
        <TogglerComponent/>
        <WeatherApp />
+       <ColorPicker />
        {/* <Form /> */}
        {/* {products.map(item =>(
 
