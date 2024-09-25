@@ -244,6 +244,9 @@ const Styles = StyleSheet.create({
         margin: 5,
         borderRadius: 30,
       },
+      headerTodo:{
+        fontSize: 28,
+      }
 
     });
 

@@ -11,6 +11,7 @@ import Fetching from './Fetching';
 import TogglerComponent from './TogglerComponent';
 import WeatherApp from './GetWeatherComponent';
 import ColorPicker from './ColorPicker';
+import ToDoList from './ToDoList';
 
 const ViewComponent = () => {
   return (
@@ -23,6 +24,7 @@ const ViewComponent = () => {
        <TogglerComponent/>
        <WeatherApp />
        <ColorPicker />
+       <ToDoList />
        {/* <Form /> */}
        {/* {products.map(item =>(
 
