@@ -12,19 +12,21 @@ import TogglerComponent from './TogglerComponent';
 import WeatherApp from './GetWeatherComponent';
 import ColorPicker from './ColorPicker';
 import ToDoList from './ToDoList';
+import RandomUser from './RandomUser';
 
 const ViewComponent = () => {
   return (
-    <ScrollView>
+    // <ScrollView>
 
     <View>
+      <RandomUser />
        {/* <Cards /> */}
-       <ConversionComponent/>
+       {/* <ConversionComponent/> */}
        {/* <Fetching /> */}
-       <TogglerComponent/>
+       {/* <TogglerComponent/>
        <WeatherApp />
        <ColorPicker />
-       <ToDoList />
+       <ToDoList /> */}
        {/* <Form /> */}
        {/* {products.map(item =>(
 
@@ -39,7 +41,7 @@ const ViewComponent = () => {
        } */}
     </View>
 
-    </ScrollView>
+    // </ScrollView>
   )
 }
 

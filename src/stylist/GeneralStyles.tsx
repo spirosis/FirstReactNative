@@ -246,7 +246,45 @@ const Styles = StyleSheet.create({
       },
       headerTodo:{
         fontSize: 28,
-      }
+      },
+      itemTodo:{
+        fontSize: 18,
+      },
+      itemContainer:{
+        flexDirection: "row",
+        padding: 10,
+        borderBottomWidth: 1,
+        borderBottomColor: "#ddd",
+        alignItems: 'center',
+      },
+      loadingText:{
+        textAlign: "center",
+        marginTop: 20,
+      },
+      errorText:{
+        textAlign: "center",
+        marginTop: 20,
+        color: "red"
+      },
+      nameItem: {
+        fontSize: 14,
+        color: "#666"
+      },
+      emailItem: {
+        fontSize: 14,
+        fontWeight: "bold"
+      },
+      avatarItem:{
+        width: 50,
+        height: 50,
+        borderRadius: 25,
+        marginRight: 10,
+      },
+      infoContainer:{
+        flex: 1,
+      },
+
+
 
     });
 
