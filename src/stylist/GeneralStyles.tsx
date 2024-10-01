@@ -18,15 +18,18 @@ const Styles = StyleSheet.create({
         alignItems: 'center', // Alineación horizontal
         justifyContent: 'center', // Alineación vertical
       },
+      
       titleName:{
         fontSize: 28,
         color: 'red',
 
       },
+
       text: {
         fontSize: 18, // Tamaño del texto
         color: '#333', // Color del texto
       },
+
       buttonText: {
         fontSize: 18, // Tamaño del texto
         color: 'pink', // Color del texto
@@ -62,22 +65,27 @@ const Styles = StyleSheet.create({
       cardContainer: {
         flex: 1,
       },
+
       fonts: {
         marginBottom: 8,
       },
+
       user: {
         flexDirection: 'row',
         marginBottom: 6,
       },
+
       image: {
         width: 30,
         height: 30,
         marginRight: 10,
       },
+
       name: {
         fontSize: 16,
         marginTop: 5,
       },
+
       circularImage:{
         width: 200,
         height: 200,
@@ -96,9 +104,11 @@ const Styles = StyleSheet.create({
         elevation: 3,
         backgroundColor: 'grey',
       },
+
       textHitMe: {
         color: 'white',
       },
+
       textContainer: {
         marginLeft: 54,
         marginRight: 54,
@@ -112,13 +122,16 @@ const Styles = StyleSheet.create({
         justifyContent: 'center', // Alineación vertical
         textAlign: 'justify',
       },
+
       inputContainer:{
         padding: 35,
       },
+
       textInput: {
         marginTop: 10,
         marginBottom: 10,
       },
+
       buttonContainer:{
         marginTop: 10,
         alignItems: 'center',
@@ -131,6 +144,7 @@ const Styles = StyleSheet.create({
         elevation: 3,
         backgroundColor: 'grey',
       },
+
       buttonLogin: {
         marginTop: 10,
         alignItems: 'center',
@@ -143,6 +157,7 @@ const Styles = StyleSheet.create({
         elevation: 3,
         backgroundColor: 'blue',
       },
+
       buttonSignup: {
         marginTop: 10,
         alignItems: 'center',
@@ -155,6 +170,7 @@ const Styles = StyleSheet.create({
         elevation: 3,
         backgroundColor: 'black',
       },
+
       centeredView: {
         flex: 1,
         justifyContent: 'center',
@@ -221,35 +237,43 @@ const Styles = StyleSheet.create({
         fontWeight: 'bold',
         marginVertical: 10,
       },
+
       productPrice: {
         fontSize: 16,
         color: '#888',
       },
+
       productDescription: {
         fontSize: 14,
         color: '#666',
       },
+
       colorTitle: {
         fontSize: 16,
         marginBottom: 20,
       },
+
       colorContainer:{
         flexDirection:"row",
         flexWrap: "wrap",
         justifyContent: "center",
       },
+
       colorBox:{
         width: 60,
         height: 60,
         margin: 5,
         borderRadius: 30,
       },
+
       headerTodo:{
         fontSize: 28,
       },
+
       itemTodo:{
         fontSize: 18,
       },
+
       itemContainer:{
         flexDirection: "row",
         padding: 10,
@@ -257,34 +281,60 @@ const Styles = StyleSheet.create({
         borderBottomColor: "#ddd",
         alignItems: 'center',
       },
+
       loadingText:{
         textAlign: "center",
         marginTop: 20,
       },
+
       errorText:{
         textAlign: "center",
         marginTop: 20,
         color: "red"
       },
+
       nameItem: {
         fontSize: 14,
         color: "#666"
       },
+
       emailItem: {
         fontSize: 14,
         fontWeight: "bold"
       },
+
       avatarItem:{
         width: 50,
         height: 50,
-        borderRadius: 25,
+        borderRadius: 15,
         marginRight: 10,
       },
+
       infoContainer:{
         flex: 1,
       },
-
-
+      inputProfile:{
+        height: 40,
+        borderColor: "#ccc",
+        borderWidth: 1,
+        marginBottom: 11,
+        paddingHorizontal: 10,
+      },
+      profileItem:{
+        fontSize: 14,
+        borderBottomColor: "#ccc",
+      },
+      profileText:{
+        fontSize: 16,
+        flex: 1,
+      },
+      editButton:{
+        color: "blue",
+        marginRight: 10,
+      },
+      removeButton:{
+        color: "red",
+      },
 
     });
 

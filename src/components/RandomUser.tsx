@@ -21,9 +21,7 @@ const RandomUser = () => {
                 setLoading(false);
             }
         }
-       
         fetchUser();
-
     }, []);
 
     if (loading) {
@@ -34,7 +32,6 @@ const RandomUser = () => {
 
     if (error) {
         return <Text>Error:{error}</Text>
-
     }
 
     const renderUser = ({item}: any) => {
@@ -46,9 +43,7 @@ const RandomUser = () => {
                 <Text style={Styles.nameItem}>{item.email}</Text>
             </View>
         </View>
-
-        )
-        
+        )    
     }
 
   return (
@@ -56,6 +51,6 @@ const RandomUser = () => {
       <FlatList data={users} renderItem={renderUser} keyExtractor={(item: any) => item.login.uuid} />
     </View>
   )
-}
+};
 
 export default RandomUser
