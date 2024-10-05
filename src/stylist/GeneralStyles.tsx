@@ -313,6 +313,15 @@ const Styles = StyleSheet.create({
       infoContainer:{
         flex: 1,
       },
+
+      inputTextProfile: {
+        height: 40,
+        borderColor: "gray",
+        borderWidth: 1,
+        marginBottom: 10,
+        paddingHorizontal: 10,
+      },
+      
       inputProfile:{
         height: 40,
         borderColor: "#ccc",
@@ -321,7 +330,11 @@ const Styles = StyleSheet.create({
         paddingHorizontal: 10,
       },
       profileItem:{
-        fontSize: 14,
+        flexDirection: "row",
+        justifyContent: "space-between",
+        alignItems: "center",
+        paddingVertical: 10,
+        borderBottomWidth: 1,
         borderBottomColor: "#ccc",
       },
       profileText:{

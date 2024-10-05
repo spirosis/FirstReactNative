@@ -13,13 +13,16 @@ import WeatherApp from './GetWeatherComponent';
 import ColorPicker from './ColorPicker';
 import ToDoList from './ToDoList';
 import RandomUser from './RandomUser';
+import UserProfile from './UserProfile';
 
 const ViewComponent = () => {
   return (
     // <ScrollView>
 
     <View>
-      <RandomUser />
+      {/* <RandomUser /> */}
+      <UserProfile />
+
        {/* <Cards /> */}
        {/* <ConversionComponent/> */}
        {/* <Fetching /> */}
