@@ -16,6 +16,9 @@ export const NumberProvider : React.FC<NumberProviderProps> = ({children}) => {
         setNum(prevNum =>[...prevNum, n])
     }
     return (
+        <RandomNumberContext.Provider value={{num,addNumber}}>
+            {children}
+        </RandomNumberContext.Provider>
 
-    )
+    );
 }

@@ -1,7 +1,9 @@
 import { View, Text, FlatList } from 'react-native'
-import React from 'react'
+import React, { useContext } from 'react'
+import { RandomNumberContext } from '../context/RandomNumberContext'
 
 const RandomNumber = () => {
+  const {num} = useContext(RandomNumberContext)
   return (
     <View>
       <Text>Number List: </Text>

@@ -1,4 +1,4 @@
-import { ScrollView, View } from 'react-native'
+import { SafeAreaView, ScrollView, View } from 'react-native'
 import React from 'react'
 
 
@@ -14,6 +14,9 @@ import ColorPicker from './ColorPicker';
 import ToDoList from './ToDoList';
 import RandomUser from './RandomUser';
 import UserProfile from './UserProfile';
+import { NumberProvider } from '../context/RandomNumberContext';
+import RandomNumber from './RandomNumber';
+import AddRandomNumber from './AddRandomNumber';
 
 const ViewComponent = () => {
   return (
@@ -21,7 +24,13 @@ const ViewComponent = () => {
 
     <View>
       {/* <RandomUser /> */}
-      <UserProfile />
+      {/* <UserProfile /> */}
+      <NumberProvider>
+        <SafeAreaView>
+          <RandomNumber />
+          <AddRandomNumber />
+        </SafeAreaView>
+      </NumberProvider>
 
        {/* <Cards /> */}
        {/* <ConversionComponent/> */}
