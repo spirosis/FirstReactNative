@@ -17,6 +17,7 @@ import UserProfile from './UserProfile';
 import { NumberProvider } from '../context/RandomNumberContext';
 import RandomNumber from './RandomNumber';
 import AddRandomNumber from './AddRandomNumber';
+import MyForm from './MyForm';
 
 const ViewComponent = () => {
   return (
@@ -31,6 +32,7 @@ const ViewComponent = () => {
           <AddRandomNumber />
         </SafeAreaView>
       </NumberProvider>
+      <MyForm />
 
        {/* <Cards /> */}
        {/* <ConversionComponent/> */}
